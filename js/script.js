@@ -118,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
+            const subject = document.getElementById('subject').value.trim();
             const message = document.getElementById('message').value.trim();
             
             if (!name || !email || !phone || !message) {
@@ -130,8 +131,25 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Here you would typically send the form data to a server
-            alert('Thank you for your message! We will contact you soon.');
+            // Format the message for WhatsApp
+            let whatsappMessage = `*New Contact Form Submission*%0A%0A`;
+            whatsappMessage += `*Name:* ${encodeURIComponent(name)}%0A`;
+            whatsappMessage += `*Email:* ${encodeURIComponent(email)}%0A`;
+            whatsappMessage += `*Phone:* ${encodeURIComponent(phone)}%0A`;
+            if (subject) {
+                whatsappMessage += `*Subject:* ${encodeURIComponent(subject)}%0A`;
+            }
+            whatsappMessage += `*Message:* ${encodeURIComponent(message)}`;
+            
+            // Send to WhatsApp
+            const whatsappNumber = '919820325554';
+            const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`;
+            
+            // Open WhatsApp in new tab
+            window.open(whatsappURL, '_blank');
+            
+            // Show success message and reset form
+            alert('Redirecting to WhatsApp... Please send the message to complete your inquiry.');
             contactForm.reset();
         });
     }
