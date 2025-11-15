@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
             whatsappMessage += `*Message:* ${encodeURIComponent(message)}`;
             
             // Send to WhatsApp
-            const whatsappNumber = '919820325554';
+            const whatsappNumber = '917558568431';
             const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`;
             
             // Open WhatsApp in new tab

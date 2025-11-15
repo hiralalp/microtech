@@ -1,7 +1,7 @@
-# MicroTech Stainless Steel Co. Website
+# Monarch Forge & Fittings Website
 
 ## Overview
-This is a professional website for MicroTech Stainless Steel Co., a leading manufacturer and exporter of high-quality Flanges and Pipe Fittings.
+This is a professional website for Monarch Forge & Fittings, a leading manufacturer and exporter of high-quality Flanges and Pipe Fittings.
 
 ## Website Structure
 
@@ -40,7 +40,7 @@ microtech/
 2. **About Us (about.html)**
    - Company overview
    - Mission, Vision, and Values
-   - Why choose MicroTech
+   - Why choose Monarch
    - Statistics and achievements
 
 3. **Infrastructure (infra.html)**
@@ -101,29 +101,18 @@ microtech/
 
 ## Contact Information
 
-### Head Office
-- **Address:** 105, Ratan Sadan, Bldg. Shop No.16, 5th Kumbharwada Lane, Mumbai-400 004. INDIA
-- **Mobile:** +91-9821050791
-- **Telephone:** 022-23822119
-- **Email:** exporter@mssc.in
+### Head Office & Manufacturing Unit
+- **Company:** Monarch Forge & Fittings
+- **Address:** Gala No-2, S.No-36, H.No-7, Bhanu Industrial Estate-3, Dhumal Nagar, Waliv, Mumbai-401208
+- **Mobile:** +91-7558568431
+- **Telephone:** 02266109423 / 02266109422
+- **Email:** info.monarchforge@gmail.com
+- **Email (Alt):** info@monarchforge.in
 
-### Branch Office
-- **Address:** 16, Anil Estate, Kewal Kanta, Uttam Dairy Road, Rakhial, Ahmedabad - 380 023
-- **Contact Person:** Mr. Vikram Purohit
-- **Mobile:** +91-9724783780 / 8866045554
-- **Telephone:** 022-23822119
-- **Email:** exporter@mssc.in
+---
 
-### Manufacturing Units
-- **Fitting Unit:** Shriram Colony, RIICO Area, Sanchore (Raj.) - 343 041 | Mobile: +91 8866045554
-- **Flange Unit:** Plot No. 13C, Sewri Coal Depot, Sewri, Mumbai | Mobile: +91 7045210237
+**© 2025 Monarch Forge & Fittings. All rights reserved.**
 
-### Corporate Contact
-- **Phone:** 022-23822119 / 022-67438445
-- **Email:** exporter@mssc.in
-- **International Sales:** Suresh Purohit - +91 9820325554
-
-## How to Add More Product Pages
 
 To add more product detail pages, use the template at `products/flanges-stainless-steel.html`:
 
@@ -206,24 +195,12 @@ Company details are located in:
 ## Support
 
 For any questions or support regarding this website, contact:
-- Email: exporter@mssc.in
-- Phone: +91-9821050791
+- Email: info.monarchforge@gmail.com
+- Phone: +91-7558568431
 
 ---
 
-**© 2025 MicroTech Stainless Steel Co. All rights reserved.**
-
-
-
-MONARCH FORGE & FITTINGS
-Gala No-2,S.No-36, H.No-7, Bhanu Industrial
-Estate-3, Dhumal Nagar, Waliv, Mumbai-401208
-E-Mail : info.monarchforge@gmail.com
-Info@monarchforge.in 
-
-
-Number:- 7558568431
-Tell No:- 02266109423/22
+**© 2025 Monarch Forge & Fittings. All rights reserved.**
 
 
 
