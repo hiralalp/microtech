@@ -552,9 +552,71 @@ section {
     background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
 }
 
-.video-container {
-    max-width: 900px;
-    margin: 0 auto;
+.video-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.video-text-content h2 {
+    font-size: 36px;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.video-text-content .divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    margin: 20px 0 30px 0;
+}
+
+.video-text-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.video-highlights {
+    margin: 30px 0;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+    transform: translateX(10px);
+}
+
+.highlight-item i {
+    color: var(--primary-color);
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.highlight-item span {
+    color: var(--dark-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.video-cta-text {
+    font-style: italic;
+    color: #555;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.video-player-column {
+    position: relative;
 }
 
 .video-wrapper {
@@ -1375,14 +1437,24 @@ section {
         padding: 60px 0;
     }
 
-    .video-container {
-        padding: 0 15px;
+    .video-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .video-text-content h2 {
+        font-size: 28px;
+    }
+
+    .highlight-item {
+        font-size: 14px;
     }
 
     .video-wrapper {
         border-radius: 10px;
     }
 
+    .video-wrapper video,
     .video-wrapper iframe {
         border-radius: 10px;
     }
@@ -1445,8 +1517,20 @@ section {
         padding: 50px 0;
     }
 
-    .video-container {
-        padding: 0 10px;
+    .video-text-content h2 {
+        font-size: 24px;
+    }
+
+    .video-text-content p {
+        font-size: 15px;
+    }
+
+    .highlight-item {
+        font-size: 13px;
+    }
+
+    .highlight-item i {
+        font-size: 16px;
     }
 
     /* Small Mobile Adjustments */
