@@ -217,3 +217,20 @@ For any questions or support regarding this website, contact:
 
 <div style="padding-bottom: 56.25%;position: relative;"><iframe src="https://hiralal40.dotcompal.co/video/embed/394gnjk3wc" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%; background: transparent !important;
 box-shadow: none !important;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+
+
+
+
+exports::
+<div style="padding-bottom: 56.25%;position: relative;"><iframe src="https://hiralal21.dotcompal.co/video/embed/wlptzh34e8" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%; background: transparent !important;
+box-shadow: none !important;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div style="padding-bottom: 56.25%;position: relative;"><iframe src="https://hiralal21.dotcompal.co/video/embed/tlcx2rkkts" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%; background: transparent !important;
+box-shadow: none !important;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div style="padding-bottom: 56.25%;position: relative;"><iframe src="https://hiralal21.dotcompal.co/video/embed/61v45ioxmk" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%; background: transparent !important;
+box-shadow: none !important;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div style="padding-bottom: 56.25%;position: relative;"><iframe src="https://hiralal21.dotcompal.co/video/embed/bltx6bnsr9" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%; background: transparent !important;
+box-shadow: none !important;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
